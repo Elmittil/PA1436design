@@ -1,6 +1,6 @@
 ---
 Title: Home
-Description: This is our index page.
+Description: Anya's design site.
 ---
 
 Home page
