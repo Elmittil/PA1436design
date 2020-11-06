@@ -1,0 +1,6 @@
+// om bilderna inte funkar
+chmod -R 777 cache/*
+
+
+(empty line)
+[comment]: # (This actually is the most platform independent comment)
