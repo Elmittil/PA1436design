@@ -1,5 +1,5 @@
 ---
-Logo: image/100Px_logo.jpg
+Logo: image/100Px_logo.png
 Tagline:
 Social:
     - title: Link to Anya's github repo.
