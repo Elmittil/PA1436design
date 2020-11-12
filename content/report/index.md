@@ -1,6 +1,7 @@
 ---
 Title: Report
 Description: Reports over the KMOM
+icon: fas fa-chart-line
 ---
 
 Report
