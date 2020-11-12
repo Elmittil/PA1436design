@@ -1,0 +1,25 @@
+/*** BASIC LAYOUT: FOOTER ***/
+
+.footer {
+    background: $dark-orange;
+    color: $neutral-gray;
+}
+
+.footer a {
+    color: $light-beige;
+}
+
+.footer a:hover {
+    color: $dark-accent;
+}
+
+.footer p {
+    margin: 0;
+    padding: ($magic-number * 2) 0;
+}
+
+.footer .social {
+    float: right;
+    padding: 1.5em 0 1.5em 1em;
+    font-size: 2rem;
+}
