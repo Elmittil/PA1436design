@@ -15,3 +15,6 @@ I was born in Belarus, then from 2004 till 2014 I lived in Sweden where I studie
 
 ####This page
 This page is created using Pico cms, which uses markdown for writing the page content. The theme is written in SASS and compiled into css via npm. The theme makes use of Neutralize to adjust the pre/existing browser settings and make page more uniform on most platforms. The theme also uses googleFonts and FontAwesome icons. For version control GitHub is utilised and accessed via Terminal. The commits of individual changes are submitted with short descriptive messages and pushed to the main brach with version tags and comments.
+
+####Credits
+The icons used in their original state are provided by Fontawesome ([license](https://fontawesome.com/license)).
