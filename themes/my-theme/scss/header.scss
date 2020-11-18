@@ -1,6 +1,7 @@
 /*** BASIC LAYOUT: HEADER ***/
 .header {
-    background-image: '../../assets/img/banner.jpeg';
+    background-image: url('../../../assets/img/banner.jpg');
+
 }
 
 .logo {
@@ -10,20 +11,13 @@
 
 .title {
     float: left;
-    padding-top: 3em;
+    padding-top: 1.3rem;
+    padding-bottom: 1em;
 }
 
 .title * {
     margin: 0;
     color: #111;
-}
-
-.title p {
-    font-style: italic;
-}
-
-.logo {
-    height: 10.8em;
 }
 
 .logo * {
@@ -36,7 +30,7 @@
 }
 
 .logo+.title h1 {
-    margin: 0.8rem 0;
+    margin: 0.5rem 0;
 }
 
 .logo+.title.tagline h1 {
@@ -93,4 +87,31 @@
 
 .flash-img {
     width: 100%;
+}
+
+.divider {
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    width: 100%;
+    height: 5px;
+    color: transparent;
+}
+
+@media (max-width: 1235px) {
+    .title h1 {
+        font-size: 3em;
+    }
+
+    .title {
+        padding-top: 4em;
+    }
+}
+
+@media (max-width: 875px) {
+    .title h1 {
+        font-size: 3em;
+    }
+
+    .title {
+        padding-top: 0.5em;
+    }
 }

@@ -6,11 +6,13 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+@import url('https://rsms.me/inter/inter.css');
 @import 'typography';
 @import 'header';
 @import 'footer';
 @import 'responsive';
-
+@import 'report';
 
 * {
     box-sizing: border-box;
@@ -55,7 +57,7 @@ body {
 
 .main {
     flex: 1 0 auto;
-    background-color: $header-colour;
+    background-color: $background-colour;
 }
 
 .header,
@@ -68,13 +70,16 @@ body {
 }
 
 .container {
-    max-width: 48em;
+    min-width: 350px;
     padding: 0 0.5em;
-    margin: 0 auto;
+    margin: 0 20% 0 12%;
 }
 
-.me img {
-    width: 30%;
+.me {
+    width: 50%;
+    max-width: 50px;
+    display: block;
+    // float: right;
 }
 
 .widescreen .container {
@@ -159,6 +164,20 @@ body {
     .image.float-right {
         float: none;
         margin: 0 auto;
+    }
+
+    .landingpage h1,
+    .kmom-box.project,
+    .kmom-box {
+        grid-column: span 4;
+    }
+
+    .sidebar {
+        display: none !important;
+    }
+
+    .report {
+        padding: 0 1em;
     }
 }
 

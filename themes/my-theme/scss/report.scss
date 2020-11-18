@@ -1,0 +1,104 @@
+/* report.scss */
+.main {
+    padding-top: 0;
+}
+
+.landingpage {
+    display: grid;
+    gap: 1.5em 2em;
+    margin: 0 10%;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    margin-top: 0;
+    justify-self: center;
+}
+
+.landingpage h5 {
+    background-color: $background-colour;
+    padding: 0.5em 1.5em;
+    color: $dark-accent;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.kmom-box.project {
+    grid-column: span 3;
+    background-color: $white;
+    border-top: 1px solid $accent;
+    border-right: 1px solid $accent;
+}
+
+.kmom-box {
+    border-top: 1px solid $accent;
+    border-right: 1px solid $accent;
+    width: 100%;
+    margin: 0 0 auto;
+    background-color: $white;
+    text-align: center;
+    box-sizing: border-box;
+    height: 200px;
+    position: relative;
+}
+
+.kmom-box i {
+    color: $highlighter;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+
+.kmom-box p {
+    padding: 0 1em;
+    max-width: 100%;
+    position: absolute;
+}
+
+// single report page styling
+.report-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+}
+
+.report {
+    flex-basis: 0;
+    flex-grow: 5;
+    border-left: 1px solid $accent;
+    padding-left: $magic-number;
+}
+
+.sidebar {
+    margin-top: 8rem;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.sidebar i {
+    color: $dark-orange;
+}
+
+.sidebar a h5 {
+    margin-bottom: 0.7em;
+    text-decoration: underline;
+}
+
+.sidebar a:hover {
+    color: #c85942;
+}
+
+@media (max-width: 767px) {
+    .main {
+        padding: 2em 0 1em;
+    }
+
+    .report {
+        padding: 0;
+    }
+
+    .report p {
+        margin: 0;
+    }
+}

@@ -1,6 +1,7 @@
 html {
     font-size: 16px;
     font-weight: 300;
+    overflow-y: scroll;
 }
 
 h1,
@@ -9,9 +10,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin-bottom: $magic-number;
-    font-weight: bold;
+    font-weight: 400;
     color: #333;
 }
 
@@ -22,6 +23,10 @@ body {
     font-variant-ligatures: common-ligatures;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
+}
+
+p {
+    margin: 0 12% $magic-number 6%;
 }
 
 p,
@@ -49,7 +54,7 @@ fieldset {
 }
 
 a {
-    color: #2eae9b;
+    color: $dark-accent;
     text-decoration: none;
     transition: color 0.2s ease-in;
 }
@@ -96,4 +101,9 @@ hr {
 
 abbr {
     text-decoration: underline dotted;
+}
+
+.title h1 {
+    font-family: 'Codystar', cursive;
+    font-size: 4.5em;
 }
