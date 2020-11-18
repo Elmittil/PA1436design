@@ -1,6 +1,6 @@
 ---
 Logo: image/100Px_logo.png
-Tagline:
+Tagline: PORTFOLIO
 Social:
     - title: Link to Anya's github repo.
       url: https://github.com/Elmittil/PA1436design
