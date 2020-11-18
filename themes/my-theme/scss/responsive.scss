@@ -1,17 +1,60 @@
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
+@media (max-width: 1235px) {
+    .title h1 {
+        font-size: 3em;
+    }
+
+    .title {
+        padding-top: 4em;
+    }
+}
+
+@media (max-width: 875px) {
+
+    .logo {
+        height: 8.8em;
+    }
+
+    .logo img {
+      height: 80%;
+    }
+
+    .logo {
+        padding: 2em 1em 2em 0;
+    }
+
+    .title h1 {
+        font-size: 1em;
+    }
+
+    .title {
+        padding: 2em 0;
+    }
+}
 
 @media (max-width: 767px) {
     .main {
         padding: 2em 0 1em;
     }
 
-    .title,
-    .logo {
+    .container {
+        margin: 0 4% 0 8%;
+    }
+
+    .title {
         padding: 2em 1.5em 2em 0;
     }
 
+    .title h1 {
+        font-size: 1.2em;
+    }
+
+    .title p {
+        font-size: 0.7em;
+    }
+
     .logo {
-        height: 8.8em;
+        display: none !important;
     }
 
     .nav {
@@ -38,7 +81,7 @@
         display: block;
         float: right;
         width: 2em;
-        margin: 0.6667em 0;
+        margin: 1em 0;
         font-size: 1.5rem;
         line-height: 2em;
         text-align: center;
@@ -49,6 +92,14 @@
         vertical-align: middle;
     }
 
+    .sidebar {
+        display: none !important;
+    }
+
+    .report {
+        padding: 0 1em;
+    }
+
     .footer p {
         padding: 4em 0;
         font-size: 0.7rem;
@@ -56,5 +107,30 @@
 
     .footer .social {
         padding: 1em 0 0.5em 1em;
+    }
+
+    .image.xsmall {
+        width: 60%;
+    }
+
+    .image.small {
+        width: 80%;
+    }
+
+    .image.large,
+    .image.xlarge {
+        width: 100%;
+    }
+
+    .image.float-left,
+    .image.float-right {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .landingpage h1,
+    .kmom-box.project,
+    .kmom-box {
+        grid-column: span 4;
     }
 }

@@ -88,17 +88,3 @@
 .sidebar a:hover {
     color: #c85942;
 }
-
-@media (max-width: 767px) {
-    .main {
-        padding: 2em 0 1em;
-    }
-
-    .report {
-        padding: 0;
-    }
-
-    .report p {
-        margin: 0;
-    }
-}
