@@ -1,0 +1,22 @@
+$alert-box-size: 600px !default;
+//colours
+
+
+$dark-orange: #c85942;
+$light-beige: #ccb39a;
+$vivid-beige: #d7ae82;
+$dark-accent: #5f605a;
+$neutral-gray: #c5c5c3;
+$background-colour: #fafafa;
+$white: #fff;
+$black: #333;
+$highlighter: #fde098;
+$accent: #30c7ec;
+
+$background-gradient: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+
+
+//typography
+$font-size: 1.4em;
+$line: 1.4;
+$magic-number: $font-size * $line;
