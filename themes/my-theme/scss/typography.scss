@@ -10,14 +10,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Inter', sans-serif;
+    font-family: $header-font;
     margin-bottom: $magic-number;
     font-weight: 400;
     color: #333;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: $body-font;
     font-size: 1rem;
     line-height: $line;
     font-variant-ligatures: common-ligatures;
@@ -54,13 +54,13 @@ fieldset {
 }
 
 a {
-    color: $dark-accent;
+    color: $accent-font;
     text-decoration: none;
     transition: color 0.2s ease-in;
 }
 
 a:hover {
-    color: $dark-orange;
+    color: $accent-font;
 }
 
 h1 {
@@ -104,6 +104,6 @@ abbr {
 }
 
 .title h1 {
-    font-family: 'Codystar', cursive;
+    font-family: $title-font;
     font-size: 4.5em;
 }

@@ -1,7 +1,6 @@
 /*** BASIC LAYOUT: HEADER ***/
 .header {
     background-image: url('../../../assets/img/banner.jpg');
-
 }
 
 .logo {
@@ -17,12 +16,14 @@
 
 .title * {
     margin: 0;
-    color: #111;
+    color: $black;
+    font-weight: 200;
 }
 
 .logo * {
     display: block;
     height: 100%;
+    filter: invert(94%);
 }
 
 .logo img {
@@ -55,21 +56,25 @@
     font-weight: bold;
 }
 
+.nav i {
+    color: $accent;
+}
+
 .nav a,
 .nav-toggle {
-    color: #333;
+    color: $black;
 }
 
 .nav,
 .active a,
 .nav a:hover,
 .nav-toggle:hover {
-    color: #3b440d;
+    color: $accent;
 }
 
-.nav a:hover,
+.nav i a:hover,
 .nav-toggle:hover {
-    color: #3b440d;
+    color: $accent;
     text-decoration: underline;
 }
 
@@ -92,6 +97,6 @@
 .divider {
     background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
     width: 100%;
-    height: 5px;
+    height: 4px;
     color: transparent;
 }

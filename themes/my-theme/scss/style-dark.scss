@@ -7,7 +7,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://rsms.me/inter/inter.css');
 @import 'typography';
 @import 'header';
@@ -53,11 +52,6 @@ body {
 body {
     display: flex;
     flex-direction: column;
-}
-
-.main {
-    flex: 1 0 auto;
-    background-color: $background-colour;
 }
 
 .header,
@@ -369,3 +363,108 @@ button::-moz-focus-inner {
 }
 
 @import 'responsive';
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../assets/img/banner_rocks.jpg');
+    background-color: $dark-background-colour;
+    background-size: cover;
+    // filter: brightness(70%);
+}
+
+.header .container {
+    // filter: brightness(110%);
+}
+
+.logo img {
+    filter: invert(10%);
+}
+
+.title * {
+    color: $dark-highlight-colour;
+}
+
+.header i {
+    color: $dark-highlight-colour;
+}
+
+.divider {
+    filter: grayscale(60%);
+}
+
+.main {
+    flex: 1 0 auto;
+    background-color: $dark-surface-colour;
+    color: $dark-highlight-colour;
+}
+
+.main img {
+    filter: brightness(0.7) contrast(1.2);
+}
+
+a:hover,
+i:hover {
+    color: $highlighter;
+}
+
+a {
+    color: $dark-colour-accent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $dark-highlight-colour;
+}
+
+.landingpage h1 {
+    color: $dark-light-colour;
+}
+
+.landingpage h5 {
+    background-color: $dark-background-colour;
+    color: $dark-light-colour;
+}
+
+.kmom-box.project,
+.kmom-box {
+    background-color: $dark-front-colour;
+    border-top: 0;
+    border-right: 0;
+}
+
+.kmom-box a {
+    color: $dark-highlight-colour;
+}
+
+.kmom-box i {
+    color: $highlighter;
+    filter: brightness(70%);
+}
+
+.report {
+    border-left: 1px solid $dark-colour-accent;
+}
+
+.sidebar i {
+    color: $dark-colour-accent;
+}
+
+.sidebar a h5:hover {
+    color: $dark-colour-accent;
+}
+
+.footer {
+    background: $dark-background-colour;
+    color: $dark-light-colour;
+}
+
+.footer i {
+    color: $dark-front-colour;
+}
+
+.footer i:hover {
+    color: $dark-colour-accent;
+}

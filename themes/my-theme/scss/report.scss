@@ -42,6 +42,14 @@
     position: relative;
 }
 
+.kmom-box a {
+    color: $dark-accent;
+}
+
+.kmom-box a:hover {
+    color: $accent-font;
+}
+
 .kmom-box i {
     color: $highlighter;
     align-items: flex-end;
@@ -77,14 +85,13 @@
 }
 
 .sidebar i {
-    color: $dark-orange;
+    color: $accent;
 }
 
 .sidebar a h5 {
     margin-bottom: 0.7em;
-    text-decoration: underline;
 }
 
-.sidebar a:hover {
-    color: #c85942;
+.sidebar a h5:hover {
+    color: $accent;
 }

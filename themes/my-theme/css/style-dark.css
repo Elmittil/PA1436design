@@ -8,7 +8,6 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @import url("https://rsms.me/inter/inter.css");
 html {
   line-height: 1.15;
@@ -6835,11 +6834,6 @@ body {
   flex-direction: column;
 }
 
-.main {
-  flex: 1 0 auto;
-  background-color: #fafafa;
-}
-
 .header,
 .footer {
   flex: 0 0 auto;
@@ -7270,4 +7264,103 @@ button::-moz-focus-inner {
 .kmom-box {
     grid-column: span 4;
   }
+}
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/img/banner_rocks.jpg");
+  background-color: #0b141c;
+  background-size: cover;
+}
+
+.logo img {
+  filter: invert(10%);
+}
+
+.title * {
+  color: #c0c1bf;
+}
+
+.header i {
+  color: #c0c1bf;
+}
+
+.divider {
+  filter: grayscale(60%);
+}
+
+.main {
+  flex: 1 0 auto;
+  background-color: #272d31;
+  color: #c0c1bf;
+}
+
+.main img {
+  filter: brightness(0.7) contrast(1.2);
+}
+
+a:hover,
+i:hover {
+  color: #fde098;
+}
+
+a {
+  color: #15c2cb;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #c0c1bf;
+}
+
+.landingpage h1 {
+  color: #767c87;
+}
+
+.landingpage h5 {
+  background-color: #0b141c;
+  color: #767c87;
+}
+
+.kmom-box.project,
+.kmom-box {
+  background-color: #404d57;
+  border-top: 0;
+  border-right: 0;
+}
+
+.kmom-box a {
+  color: #c0c1bf;
+}
+
+.kmom-box i {
+  color: #fde098;
+  filter: brightness(70%);
+}
+
+.report {
+  border-left: 1px solid #15c2cb;
+}
+
+.sidebar i {
+  color: #15c2cb;
+}
+
+.sidebar a h5:hover {
+  color: #15c2cb;
+}
+
+.footer {
+  background: #0b141c;
+  color: #767c87;
+}
+
+.footer i {
+  color: #404d57;
+}
+
+.footer i:hover {
+  color: #15c2cb;
 }

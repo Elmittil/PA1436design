@@ -8,7 +8,6 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @import url("https://rsms.me/inter/inter.css");
 html {
   line-height: 1.15;
@@ -6516,13 +6515,13 @@ fieldset {
 }
 
 a {
-  color: #0760d6;
+  color: #5f605a;
   text-decoration: none;
   transition: color 0.2s ease-in;
 }
 
 a:hover {
-  color: #0760d6;
+  color: #c85942;
 }
 
 h1 {
@@ -6588,14 +6587,12 @@ abbr {
 
 .title * {
   margin: 0;
-  color: #333;
-  font-weight: 200;
+  color: #111;
 }
 
 .logo * {
   display: block;
   height: 100%;
-  filter: invert(94%);
 }
 
 .logo img {
@@ -6628,10 +6625,6 @@ abbr {
   font-weight: bold;
 }
 
-.nav i {
-  color: #30c7ec;
-}
-
 .nav a,
 .nav-toggle {
   color: #333;
@@ -6641,12 +6634,12 @@ abbr {
 .active a,
 .nav a:hover,
 .nav-toggle:hover {
-  color: #30c7ec;
+  color: #3b440d;
 }
 
-.nav i a:hover,
+.nav a:hover,
 .nav-toggle:hover {
-  color: #30c7ec;
+  color: #3b440d;
   text-decoration: underline;
 }
 
@@ -6717,7 +6710,7 @@ abbr {
 .landingpage h5 {
   background-color: #fafafa;
   padding: 0.5em 1.5em;
-  color: #404d57;
+  color: #5f605a;
   text-align: left;
   margin-bottom: 1em;
 }
@@ -6739,14 +6732,6 @@ abbr {
   box-sizing: border-box;
   height: 200px;
   position: relative;
-}
-
-.kmom-box a {
-  color: #404d57;
-}
-
-.kmom-box a:hover {
-  color: #0760d6;
 }
 
 .kmom-box i {
@@ -6783,15 +6768,16 @@ abbr {
 }
 
 .sidebar i {
-  color: #30c7ec;
+  color: #c85942;
 }
 
 .sidebar a h5 {
   margin-bottom: 0.7em;
+  text-decoration: underline;
 }
 
-.sidebar a h5:hover {
-  color: #30c7ec;
+.sidebar a:hover {
+  color: #c85942;
 }
 
 * {
@@ -6856,7 +6842,7 @@ body {
 
 .me {
   width: 50%;
-  max-width: 150px;
+  max-width: 50px;
   display: block;
 }
 
@@ -7271,3 +7257,8 @@ button::-moz-focus-inner {
     grid-column: span 4;
   }
 }
+.header {
+  background-image: url("../../../assets/img/rocks.JPG");
+}
+
+/*# sourceMappingURL=style-dark.css--no-source-map.map */

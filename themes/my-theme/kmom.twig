@@ -20,7 +20,11 @@
     <!-- Insert font choice here -->
     {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
     <!-- End -->
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% endif %}
 
 </head>
 
@@ -52,7 +56,7 @@
                             <li{% if page.id == current_page.id %} class="active"{% endif %}>
                                 <a href="{{ page.url }}">
                                     {% if page.meta.icon %}
-                                        <i class="{{ page.meta.icon }}" style="color: #c85942"></i>
+                                        <i class="{{ page.meta.icon }}"></i>
                                     {% else %}
                                         {{ page.title }}
                                     {% endif %}
@@ -71,13 +75,13 @@
     <div class="main" role="main">
         <div class="report-container">
             <div class="sidebar">
-                <a href="kmom01"><h5>Kmom01</h5></a>
-                <a href="kmom02"><h5>Kmom02</h5></a>
-                <a href="kmom03"><h5>Kmom03</h5></a>
-                <a href="kmom04"><h5>Kmom04</h5></a>
-                <a href="kmom05"><h5>Kmom05</h5></a>
-                <a href="kmom06"><h5>Kmom06</h5></a>
-                <a href="kmom10"><h5>Kmom10</h5></a>
+                <a href="../report/kmom01"><h5>Kmom01</h5></a>
+                <a href="../report/kmom02"><h5>Kmom02</h5></a>
+                <a href="../report/kmom03"><h5>Kmom03</h5></a>
+                <a href="../analysis/01_colors"><h5>Kmom04</h5></a>
+                <a href="../analysis/02_load"><h5>Kmom05</h5></a>
+                <a href="../analysis/03_design_principles"><h5>Kmom06</h5></a>
+                <a href="../report/kmom10"><h5>Kmom10</h5></a>
             </div>
             <div class="report">
                 {{ content }}
@@ -93,7 +97,9 @@
                         <i class="{{ social.icon }}" aria-hidden="true"></i>
                         <span class="sr-only">{{ social.title }}</span>
                     </a>
+
                 {% endfor %}
+
             </div>
             <p>
                 A study-project site for a Web Programming course at BTH.
