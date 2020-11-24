@@ -1,22 +1,29 @@
 $alert-box-size: 600px !default;
 //colours
 
-
-$dark-orange: #c85942;
-$light-beige: #ccb39a;
-$vivid-beige: #d7ae82;
-$dark-accent: #5f605a;
-$neutral-gray: #c5c5c3;
 $background-colour: #fafafa;
 $white: #fff;
 $black: #333;
 $highlighter: #fde098;
 $accent: #30c7ec;
+$accent-font: #0760d6;
+$dark-accent: #404d57;
 
-$background-gradient: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-
-
-//typography
+// typography
 $font-size: 1.4em;
 $line: 1.4;
 $magic-number: $font-size * $line;
+
+$title-font: 'Poppins', sans-serif;
+$alternative-title-font: 'Codystar', cursive;
+$body-font: 'Lato', sans-serif;
+$header-font: 'Inter', sans-serif;
+
+// DARK THEME VARS
+$dark-background-colour: #0b141c;
+$dark-surface-colour: #272d31;
+$dark-front-colour: #404d57;
+$dark-light-colour: #767c87;
+$dark-highlight-colour: #c0c1bf;
+$dark-brighter-highlight: #e0e1e0;
+$dark-colour-accent: #15c2cb;
