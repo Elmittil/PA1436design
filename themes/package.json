@@ -5,10 +5,14 @@
   "main": "index.js",
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass my-theme/scss/style.scss my-theme/css/style.css --no-source-map",
-    "style-min": "sass my-theme/scss/style.scss my-theme/css/style.min.css --no-source-map --style compressed",
-    "watch": "sass my-theme/scss/style.scss my-theme/css/style.css --no-source-map --watch",
-    "watch-min": "sass my-theme/scss/style.scss my-theme/css/style.min.css --no-source-map --style compressed --watch",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-light": "sass my-theme/scss/style.scss my-theme/css/style.css --no-source-map",
+    "style-light-min": "sass my-theme/scss/style.scss my-theme/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass my-theme/scss/style-dark.scss my-theme/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass my-theme/scss/style-dark.scss my-theme/css/style-dark.min.css --no-source-map --style compressed",
+    "watch": "sass my-theme/scss/style.scss:my-theme/css/style.css my-theme/scss/style-dark.scss:my-theme/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass my-theme/scss/style.scss:my-theme/css/style.css my-theme/scss/style-dark.scss:my-theme/css/style-dark.css --no-source-map --style compressed --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -20,6 +20,7 @@ if (is_file(__DIR__ . '/vendor/autoload.php')) {
 
 require_once(__DIR__ . "/config/config.php");
 
+
 // instance Pico
 $pico = new Pico(
     __DIR__,    // root dir
@@ -43,18 +44,19 @@ if (isset($_GET["action"])) {
             $_SESSION["theme"] = "dark";
         }
 
-        $url = "http://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
+        $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
         $url = preg_replace("/index.php\//", "", $url);
         header("Location: $url");
     }
 
     if ($_GET["action"] == "session_destroy") {
     session_destroy();
-    $url = "http://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
+    
+    $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
     $url = preg_replace("/index.php\//", "", $url);
     header("Location: $url");
+    }
 }
 
-}
 // run application
 echo $pico->run();
