@@ -78,6 +78,14 @@
     padding-left: $magic-number;
 }
 
+.report ul,
+.palette {
+    margin: 0 12% 1.96em 6%;
+}
+// 
+// .palette {
+//     margin: 0 12% 0 6%;
+// }
 .sidebar {
     margin-top: 8rem;
     flex-basis: 0;

@@ -6472,7 +6472,7 @@ h4,
 h5,
 h6 {
   font-family: "Inter", sans-serif;
-  margin-bottom: 1.96em;
+  margin-bottom: 1.372em;
   font-weight: 400;
   color: #333;
 }
@@ -6622,7 +6622,7 @@ abbr {
 
 .nav ul li {
   display: inline-block;
-  margin-left: 1em;
+  margin-left: 0.8em;
   padding: 0;
   font-weight: bold;
 }
@@ -6773,6 +6773,11 @@ abbr {
   flex-grow: 5;
   border-left: 1px solid #30c7ec;
   padding-left: 1.96em;
+}
+
+.report ul,
+.palette {
+  margin: 0 12% 1.96em 6%;
 }
 
 .sidebar {
@@ -7267,12 +7272,12 @@ button::-moz-focus-inner {
 }
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/img/banner_rocks.jpg");
-  background-color: #0b141c;
+  background-color: #131316;
   background-size: cover;
 }
 
 .logo img {
-  filter: invert(10%);
+  filter: invert(25%);
 }
 
 .title * {
@@ -7289,7 +7294,7 @@ button::-moz-focus-inner {
 
 .main {
   flex: 1 0 auto;
-  background-color: #272d31;
+  background-color: #1b1f22;
   color: #c0c1bf;
 }
 
@@ -7316,23 +7321,27 @@ h6 {
 }
 
 .landingpage h1 {
-  color: #767c87;
+  color: #787d87;
 }
 
 .landingpage h5 {
-  background-color: #0b141c;
-  color: #767c87;
+  background-color: #131316;
+  color: #787d87;
 }
 
 .kmom-box.project,
 .kmom-box {
-  background-color: #404d57;
+  background-color: #4a4a4e;
   border-top: 0;
   border-right: 0;
 }
 
 .kmom-box a {
   color: #c0c1bf;
+}
+
+.knom-box a:hover {
+  color: #15c2cb;
 }
 
 .kmom-box i {
@@ -7353,12 +7362,12 @@ h6 {
 }
 
 .footer {
-  background: #0b141c;
-  color: #767c87;
+  background: #131316;
+  color: #787d87;
 }
 
 .footer i {
-  color: #404d57;
+  color: #4a4a4e;
 }
 
 .footer i:hover {

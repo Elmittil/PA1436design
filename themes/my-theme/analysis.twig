@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="{{ theme_url }}/../shared/img/capsules-solid-blue.svg">
+      <link rel="icon" href="{{ theme_url }}/../shared/img/capsules-solid-blue.svg">
     <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
 
     {% if meta.description %}
@@ -83,8 +83,15 @@
     </div>
     <div class="divider">hello</div>
     <div class="main" role="main">
-        <div class="container">
-            {{ content }}
+        <div class="report-container">
+            <div class="sidebar">
+                <a href="../analysis/01_colors"><h5>Colour</h5></a>
+                <a href="../analysis/02_load"><h5>Load</h5></a>
+                <a href="../analysis/03_design_principles"><h5>Design principles</h5></a>
+            </div>
+            <div class="report">
+                {{ content }}
+            </div>
         </div>
     </div>
     <div class="footer">
@@ -96,8 +103,13 @@
                         <i class="{{ social.icon }}" aria-hidden="true"></i>
                         <span class="sr-only">{{ social.title }}</span>
                     </a>
+
                 {% endfor %}
+
             </div>
+            <p>
+                A study-project site for a Web Programming course at BTH.
+            </p>
         </div>
     </div>
 

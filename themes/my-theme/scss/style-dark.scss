@@ -376,7 +376,7 @@ button::-moz-focus-inner {
 }
 
 .logo img {
-    filter: invert(10%);
+    filter: invert(25%);
 }
 
 .title * {
@@ -437,6 +437,10 @@ h6 {
 
 .kmom-box a {
     color: $dark-highlight-colour;
+}
+
+.knom-box a:hover {
+    color: $dark-colour-accent;
 }
 
 .kmom-box i {

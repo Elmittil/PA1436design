@@ -6473,7 +6473,7 @@ h4,
 h5,
 h6 {
   font-family: "Inter", sans-serif;
-  margin-bottom: 1.96em;
+  margin-bottom: 1.372em;
   font-weight: 400;
   color: #333;
 }
@@ -6623,7 +6623,7 @@ abbr {
 
 .nav ul li {
   display: inline-block;
-  margin-left: 1em;
+  margin-left: 0.8em;
   padding: 0;
   font-weight: bold;
 }
@@ -6774,6 +6774,11 @@ abbr {
   flex-grow: 5;
   border-left: 1px solid #30c7ec;
   padding-left: 1.96em;
+}
+
+.report ul,
+.palette {
+  margin: 0 12% 1.96em 6%;
 }
 
 .sidebar {

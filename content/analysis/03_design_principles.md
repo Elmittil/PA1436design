@@ -1,7 +1,7 @@
 ---
 Title: Kmom04
 Description: Report for Kmom04
-Template: kmom
+Template: analysis
 ---
 
  Report for KMOM04

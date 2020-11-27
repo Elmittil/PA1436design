@@ -29,7 +29,7 @@ Report
 </div>
 
 <div class="kmom-box">
-<a href="analysis/01_colors"><h5>Kmom04</h5>
+<a href="report/kmom04"><h5>Kmom04</h5>
 <i class="fas fa-chevron-right"></i>
 <p>Kommer inom kort!</p></a>
 </div>
