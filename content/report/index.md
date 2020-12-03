@@ -8,6 +8,8 @@ Template: report
 Report
 ==========================
 
+<!-- ![Leaf](image/leaf_256x256.png) -->
+
 <div class="kmom-box">
   <a href="report/kmom01"><h5>Kmom01</h5>
     <i class="fas fa-chevron-right"></i>
@@ -31,13 +33,13 @@ Report
 <div class="kmom-box">
 <a href="report/kmom04"><h5>Kmom04</h5>
 <i class="fas fa-chevron-right"></i>
-<p>Kommer inom kort!</p></a>
+<p>För min färgschema utgick jag från header-bilden. Jag valde en färg som matchar den och en komplement färg.</p></a>
 </div>
 
 <div class="kmom-box">
 <a href="report/kmom05"><h5>Kmom05</h5>
 <i class="fas fa-chevron-right"></i>
-<p>Kommer inom kort!</p></a>
+<p>responsivitet för bilder och videos. Jag hade ingen aning hur man skulle kunna hantera detta</p></a>
 </div>
 
 <div class="kmom-box">

@@ -82,10 +82,30 @@
 .palette {
     margin: 0 12% 1.96em 6%;
 }
-// 
-// .palette {
-//     margin: 0 12% 0 6%;
-// }
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-bottom: 2em;
+    height: 0;
+    overflow: hidden;
+    max-width: 85%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.screenshots {
+    width: 63%;
+}
+
 .sidebar {
     margin-top: 8rem;
     flex-basis: 0;
