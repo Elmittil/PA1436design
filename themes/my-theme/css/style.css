@@ -6572,7 +6572,7 @@ abbr {
 
 /*** BASIC LAYOUT: HEADER ***/
 .header {
-  background-image: url("../../../assets/img/banner.jpg");
+  background-image: url("../../../image/banner.jpg");
 }
 
 .logo {
@@ -6781,6 +6781,29 @@ abbr {
   margin: 0 12% 1.96em 6%;
 }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin-bottom: 2em;
+  height: 0;
+  overflow: hidden;
+  max-width: 85%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.screenshots {
+  width: 63%;
+}
+
 .sidebar {
   margin-top: 8rem;
   flex-basis: 0;
@@ -6799,6 +6822,51 @@ abbr {
   color: #30c7ec;
 }
 
+/*** BASIC LAYOUT: GALLERY ***/
+.gallery {
+  display: grid;
+  width: 70%;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em 2em;
+  padding: 1em;
+  position: relative;
+}
+
+.gallery h2 {
+  font-size: 3vw;
+}
+
+.gallery p {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2em;
+}
+
+@media (max-width: 992px) {
+  .gallery {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery p {
+    position: relative;
+    margin: 1em;
+  }
+}
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    width: 70%;
+    margin: auto;
+  }
+
+  .gallery p {
+    position: relative;
+    margin: 1em;
+  }
+}
 * {
   box-sizing: border-box;
   border: 0 none;

@@ -1,0 +1,48 @@
+/*** BASIC LAYOUT: GALLERY ***/
+
+.gallery {
+    display: grid;
+    width: 70%;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em 2em;
+    padding: 1em;
+    position: relative;
+}
+
+.gallery h2 {
+    font-size: 3vw;
+    // width: 80%;
+}
+
+.gallery p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2em;
+}
+
+@media (max-width: 992px) {
+    .gallery {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery p {
+        position: relative;
+        margin: 1em;
+    }
+}
+
+@media (max-width: 767px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        width: 70%;
+        margin: auto;
+    }
+
+    .gallery p {
+        position: relative;
+        margin: 1em;
+    }
+}
