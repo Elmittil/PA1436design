@@ -437,7 +437,7 @@ h6 {
 }
 
 .kmom-box a {
-    color: $dark-highlight-colour;
+    color: $dark-brighter-highlight;
 }
 
 .knom-box a:hover {
@@ -457,13 +457,17 @@ h6 {
     color: $dark-colour-accent;
 }
 
+.sidebar-link a {
+    color: $dark-brighter-highlight;
+}
+
 .sidebar a h5:hover {
     color: $dark-colour-accent;
 }
 
 .footer {
     background: $dark-background-colour;
-    color: $dark-light-colour;
+    color: $dark-highlight-colour;
 }
 
 .footer i {

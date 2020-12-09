@@ -15,19 +15,13 @@
     justify-self: center;
 }
 
-.landingpage h5 {
+.landingpage h2 {
     background-color: $background-colour;
     padding: 0.5em 1.5em;
+    font-size: 1rem;
     color: $dark-accent;
     text-align: left;
     margin-bottom: 1em;
-}
-
-.kmom-box.project {
-    grid-column: span 3;
-    background-color: $white;
-    border-top: 1px solid $accent;
-    border-right: 1px solid $accent;
 }
 
 .kmom-box {
@@ -41,6 +35,15 @@
     height: 200px;
     position: relative;
 }
+
+.kmom-box.project {
+    grid-column: span 3;
+    background-color: $white;
+    border-top: 1px solid $accent;
+    border-right: 1px solid $accent;
+}
+
+
 
 .kmom-box a {
     color: $dark-accent;
@@ -116,10 +119,15 @@
     color: $accent;
 }
 
-.sidebar a h5 {
-    margin-bottom: 0.7em;
+.sidebar-link {
+    margin-bottom: 0.3em;
+    font-size: 1.2rem;
 }
 
-.sidebar a h5:hover {
+.sidebar-link a {
+    color: $black;
+}
+
+.sidebar a:hover {
     color: $accent;
 }

@@ -136,7 +136,7 @@ References
 5. [Topshopnails Instagram account](https://www.instagram.com/top.shop.nails/)
 
 
-Other
+Author
 -----------------------
 
-This analysis is completed by Anna Kovalieva
+Anna Kovalieva

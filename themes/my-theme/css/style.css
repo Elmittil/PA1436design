@@ -6714,19 +6714,13 @@ abbr {
   justify-self: center;
 }
 
-.landingpage h5 {
+.landingpage h2 {
   background-color: #fafafa;
   padding: 0.5em 1.5em;
+  font-size: 1rem;
   color: #404d57;
   text-align: left;
   margin-bottom: 1em;
-}
-
-.kmom-box.project {
-  grid-column: span 3;
-  background-color: #fff;
-  border-top: 1px solid #30c7ec;
-  border-right: 1px solid #30c7ec;
 }
 
 .kmom-box {
@@ -6739,6 +6733,13 @@ abbr {
   box-sizing: border-box;
   height: 200px;
   position: relative;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+  background-color: #fff;
+  border-top: 1px solid #30c7ec;
+  border-right: 1px solid #30c7ec;
 }
 
 .kmom-box a {
@@ -6814,11 +6815,16 @@ abbr {
   color: #30c7ec;
 }
 
-.sidebar a h5 {
-  margin-bottom: 0.7em;
+.sidebar-link {
+  margin-bottom: 0.3em;
+  font-size: 1.2rem;
 }
 
-.sidebar a h5:hover {
+.sidebar-link a {
+  color: #333;
+}
+
+.sidebar a:hover {
   color: #30c7ec;
 }
 

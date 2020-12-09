@@ -72,7 +72,7 @@ References
 * https://www.mozilla.org/sv-SE/firefox/developer/
 * https://developers.google.com/speed/docs/insights/rules
 
-Other
+Authors
 -----------------------
 
-This analysis is completed by Anna Kovalieva
+Anna Kovalieva

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en" class="no-js">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,9 +21,9 @@
     {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
     <!-- End -->
     {% if config.session.theme == "dark" %}
-    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
     {% else %}
-        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
     {% endif %}
 
 </head>
@@ -32,13 +32,13 @@
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <div class="header" role="banner">
         <div class="container">
-            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
             </a>
             {% if pages["_meta"].meta.logo %}
-                <div class="logo" aria-hidden="true">
-                    <a href="{{ "index"|link }}">
+                <div class="logo">
+                    <a href="{{ "index"|link }}" aria-label="Logo">
                         <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
                     </a>
                 </div>
@@ -54,7 +54,7 @@
                     <ul>
                         {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                             <li{% if page.id == current_page.id %} class="active"{% endif %}>
-                                <a href="{{ page.url }}">
+                                <a href="{{ page.url }}" aria-label="{{ page.title }}">
                                     {% if page.meta.icon %}
                                         <i class="{{ page.meta.icon }}"></i>
                                     {% else %}
@@ -64,12 +64,12 @@
                             </li>
                         {% endfor %}
                         <li>
-                            <a href="?action=theme">
+                            <a href="?action=theme" aria-label="Dark theme">
                                 <i class="fas fa-moon" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="?action=session_destroy">
+                            <a href="?action=session_destroy" aria-label="Session destroy">
                                 <i class="fas fa-trash-alt" aria-hidden="true"></i>
                             </a>
                         </li>
