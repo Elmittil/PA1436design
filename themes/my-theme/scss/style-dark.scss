@@ -66,15 +66,31 @@ body {
 
 .container {
     min-width: 200px;
-    // padding: 0 0.5em;
-    margin: 0 20% 0 12%;
+    margin: 0 15% 0 12%;
+}
+
+.intro-container {
+    min-width: 200px;
+    margin: 0 15% 0 12%;
+}
+.intro-container p {
+    margin-right: 0;
+}
+
+.intro-container h2
+{
+    margin-bottom: 0;
 }
 
 .me {
-    width: 50%;
-    max-width: 150px;
-    display: block;
-    // float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 5em;
+    width: 40%;
+    min-width: 200px;
+    // display: block;
+    float: right;
 }
 
 .widescreen .container {
