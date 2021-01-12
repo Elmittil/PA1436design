@@ -6679,6 +6679,7 @@ abbr {
 
 .footer a {
   color: #fff;
+  text-decoration: none;
 }
 
 .footer a:hover {
@@ -6815,7 +6816,7 @@ abbr {
 }
 
 .sidebar-link {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.5em;
   font-size: 1.2rem;
 }
 
@@ -6879,13 +6880,30 @@ body {
 
 .container {
   min-width: 200px;
-  margin: 0 20% 0 12%;
+  margin: 0 15% 0 12%;
+}
+
+.intro-container {
+  min-width: 200px;
+  margin: 0 15% 0 12%;
+}
+
+.intro-container p {
+  margin-right: 0;
+}
+
+.intro-container h2 {
+  margin-bottom: 0;
 }
 
 .me {
-  width: 50%;
-  max-width: 150px;
-  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-left: 5em;
+  width: 40%;
+  min-width: 200px;
+  float: right;
 }
 
 .widescreen .container {
@@ -7410,7 +7428,7 @@ h6 {
 /*** BASIC LAYOUT: GALLERY ***/
 .gallery {
   display: grid;
-  width: 70%;
+  width: 100%;
   margin: auto;
   grid-template-columns: repeat(3, 1fr);
   gap: 2em 2em;

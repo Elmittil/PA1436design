@@ -45,11 +45,11 @@ Report
 <div class="kmom-box">
 <a href="report/kmom06"><h2>Kmom06</h2>
 <i class="fas fa-chevron-right"></i>
-<p>Kommer inom kort!</p></a>
+<p>Jag tycker att utifrån användarens perspektiv kan det ha en negativ verkan att granska en webbsidans design noggrant.</p></a>
 </div>
 
 <div class="kmom-box project">
 <a href="report/kmom10"><h2>Kmom10</h2>
 <i class="fas fa-chevron-right"></i>
-<p>Kommer inom kort!</p></a>
+<p>Jag väljer en artist som min kund</p></a>
 </div>

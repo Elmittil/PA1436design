@@ -1,5 +1,5 @@
 ---
-Title: Analysis
+Title: analysis
 Description: Reports over the KMOM
 icon: fas fa-chart-pie
 Template: report
@@ -25,6 +25,13 @@ Analysis
 
 <div class="kmom-box">
   <a href="analysis/03_design_principles"><h2>Design Principles</h2>
+    <i class="fas fa-chevron-right"></i>
+    <p>Formal symmetry, grids and unity seem to be the principles that...</p>
+  </a>
+</div>
+
+<div class="kmom-box">
+  <a href="analysis/10_webbplatsdesign"><h2>Current webbdesign analysis</h2>
     <i class="fas fa-chevron-right"></i>
     <p>Formal symmetry, grids and unity seem to be the principles that...</p>
   </a>
